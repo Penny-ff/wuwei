@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的作品</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: 0 auto;
+      background: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      padding: 2rem;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 2rem;
+      color: #222;
+    }
+
+    h2 {
+      margin-top: 1.8rem;
+      margin-bottom: 0.8rem;
+      font-size: 1.3rem;
+      color: #444;
+      border-bottom: 1px solid #e0e0e0;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 0.5rem;
+    }
+
+    li {
+      margin-bottom: 0.75rem;
+    }
+
+    a {
+      display: block;
+      padding: 0.9rem 1.2rem;
+      background: #f0f3f7;
+      border-radius: 8px;
+      color: #0057b3;
+      text-decoration: none;
+      font-weight: 500;
+      transition: background 0.2s, transform 0.1s;
+      border: 1px solid transparent;
+    }
+
+    a:hover {
+      background: #e3e9f2;
+      border-color: #c9d6e5;
+      transform: translateY(-1px);
+    }
+
+    a:active {
+      transform: translateY(0);
+    }
+
+    .note {
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #777;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>📁 我的作品</h1>
+    <p style="text-align: center; color: #555; margin-bottom: 1rem;">
+      以下是我的一些作品，点击即可查看或下载。
+    </p>
+
+    <!-- ========== 研究生文章 ========== -->
+    <h2>📚 研究生文章</h2>
+    <ul>
+      <li><a href="研究生文章/Monte Carlo Simulation in Vaccine Inventory Management.pdf" target="_blank">📄 Monte Carlo Simulation in Vaccine Inventory Management.pdf</a></li>
+       <li><a href="研究生文章/Self-tuning Deep Brain Stimulation.pdf" target="_blank">📄Self-tuning Deep Brain Stimulation.pdf</a></li>
+       <li><a href="研究生文章/Vaccine Inventory Management Using Receding Horizon Method.pdf" target="_blank">📄Vaccine Inventory Management Using Receding Horizon Method.pdf</a></li>
+       <li><a href="研究生文章/Wireless superheterodyne receiver.pdf" target="_blank">📄Wireless superheterodyne receiver.pdf</a></li>
+       <li><a href="研究生文章/Wireless Transceiver Design and Implementation.pdf" target="_blank">📄Wireless Transceiver Design and Implementation.pdf</a></li>
+    </ul>
+
+    <!-- ========== 业余爱好兼职 ========== -->
+    <h2>🎨 业余爱好兼职</h2>
+    <ul>
+      <li><a href="业余爱好兼职/火炮系统.zip" target="_blank">📦 火炮系统.zip</a></li>
+      <li><a href="业余爱好兼职/数字头像.png" target="_blank">🖼️ 数字头像.png</a></li>
+      <!-- 如果 k文件夹 里有文件，建议在 k文件夹 内也放置一个 index.html 并链接到它，或者直接列出具体文件 -->
+      <li><a href="业余爱好兼职/作品入驻文件-唐羽霏-1633074478@qq.com" target="_blank">📁 作品入驻文件-唐羽霏-1633074478@qq.com</a></li>
+      <li><a href="业余爱好兼职/Afghan Women The Struggle with Poverty and the Path to Resolution.pdf" target="_blank">🖼️Afghan Women The Struggle with Poverty and the Path to Resolution.pdf</a></li>
+      <li><a href="业余爱好兼职/poster.pdf" target="_blank">📦 poster.pdf</a></li>
+      <li><a href="业余爱好兼职/Self-tuning Deep Brain Stimulation.pdf" target="_blank">📦 Self-tuning Deep Brain Stimulation.pdf</a></li>
+    </ul>
+
+    <div class="note">
+      提示：你的文件放在 <code>static/works/</code> 文件夹里，对应的子文件夹结构请与链接保持一致。如果 <code>k文件夹</code> 无法打开，请确认该文件夹内是否有 <code>index.html</code> 或直接链接到具体文件。
+    </div>
+  </div>
+</body>
+</html>
