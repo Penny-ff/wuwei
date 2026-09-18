@@ -14,14 +14,12 @@
 ">
     <meta name="generator" content="Hugo 0.165.0">
     
-    
-    
       <meta name="robots" content="index, follow">
-    
     
 
     <link rel="stylesheet" href="/wuwei/ananke/css/main.02a37ad6c4e155c542d276915a0e3f83f5c7c5fec443350f6e60753f1679b7a7.css" integrity="sha256-AqN61sThVcVC0naRWg4/g/XHxf7EQzUPbmB1PxZ5t6c=" crossorigin="anonymous">
-	
+
+    <!-- ===== 背景图样式：加在 </head> 前面 ===== -->
     <style>
         body.has-bg {
             background-image: url('/wuwei/images/a1.jpg');
@@ -32,18 +30,18 @@
             min-height: 100vh;
         }
 
-       
+        /* 可选：让正文区域半透明，文字更好读 */
         .has-bg .nested-copy-line-height {
             background-color: rgba(255, 255, 255, 0.75);
             padding: 1.5rem;
             border-radius: 8px;
         }
     </style>
-  
+    <!-- ===== 背景图样式结束 ===== -->
+
     <script>
   (function () {
     "use strict";
-    
     function revealButtons() {
       var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
       for (var i = 0; i < buttons.length; i++) {
@@ -76,11 +74,7 @@
       document.body.appendChild(area);
       area.select();
       var ok = false;
-      try {
-        ok = document.execCommand("copy");
-      } catch (e) {
-        ok = false;
-      }
+      try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
       document.body.removeChild(area);
       return ok;
     }
@@ -92,7 +86,6 @@
       if (!pre) return;
       var source = pre.querySelector("code") || pre;
       var text = source.innerText;
-
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(
           function () { flash(button); },
@@ -110,18 +103,7 @@
   })();
 </script>
 
-    
-      
-
-    
-
-    
-
-    
-      <link rel="canonical" href="https://Penny-ff.github.io/wuwei/posts/my-first-post/">
-    
-
-    
+    <link rel="canonical" href="https://Penny-ff.github.io/wuwei/posts/my-first-post/">
     
     <meta property="og:url" content="https://Penny-ff.github.io/wuwei/posts/my-first-post/">
 	<meta property="og:site_name" content="悟维">
@@ -131,9 +113,9 @@
 我的作品">
 	<meta property="og:locale" content="en_us">
 	<meta property="og:type" content="article">
-		<meta property="article:section" content="posts">
-		<meta property="article:published_time" content="2026-09-05T17:10:20+08:00">
-		<meta property="article:modified_time" content="2026-09-05T17:10:20+08:00">
+	<meta property="article:section" content="posts">
+	<meta property="article:published_time" content="2026-09-05T17:10:20+08:00">
+	<meta property="article:modified_time" content="2026-09-05T17:10:20+08:00">
 
 	<meta itemprop="name" content="羽霏的博客">
 	<meta itemprop="description" content="简介 人类的灵感像一个个的点，把点连接起来可能构成一张网，如果这张网上的点继续运动，即人类的灵感继续深入，就能在它的方向形成无数的线，最终就能从一维的世界跃升到二维的世界。悟维希望通过人类的灵感运动最终突破当下的维度困境，使人类整体跃升第四密度。
@@ -148,37 +130,26 @@
 感谢Hugo静态网站生成器!
 我的作品">
 
-      
-      
-    
-	
-  </head><body class="ma0 avenir bg-near-white production is-page is-page page-my-first-post">
-   
-  
+  </head>
 
+  <!-- 注意：body 类里加了 has-bg，去掉了 bg-near-white -->
+  <body class="ma0 avenir has-bg production is-page is-page page-my-first-post">
 
   <header>
     <div class="bg-black">
       <nav class="pv3 ph3 ph4-ns" role="navigation">
   <div class="flex-l center items-center justify-between">
     <a href="/wuwei/" class="f3 fw2 hover-white white-90 dib no-underline">
-      
         羽霏的博客
-      
     </a>
     <div class="flex-l items-center">
-      
-
-      
       <div class="ananke-socials"></div>
-
     </div>
   </div>
 </nav>
 
     </div>
   </header>
-
 
 <main class="pb7" role="main">
   
@@ -189,12 +160,7 @@
   </aside><div id="sharing" class="mt3 ananke-socials"></div>
 <h1 class="f1 athelas mt3 mb1">羽霏的博客</h1>
       
-      
-      
       <time class="f6 mv4 dib tracked" datetime="2026-09-05T17:10:20+08:00">二零二六年九月十二日</time>
-      
-
-      
       
     </header>
     <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h2 id="introduction">简介</h2>
